@@ -16,11 +16,5 @@ public class TestCalculator {
         Calculator calculator = new Calculator();
         assertEquals(3, calculator.subtract(9, 6));
     }
-    
-    @Test
-    public void divide() {
-        Calculator calculator = new Calculator();
-        assertEquals(2, calculator.divide(10, 5));
-    }
 
 }
